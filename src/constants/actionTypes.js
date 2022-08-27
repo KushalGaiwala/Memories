@@ -1,0 +1,21 @@
+export const FETCH_ALL_POSTS = "FETCH_ALL_POSTS";
+export const FETCH_POSTS_BY_SEARCH = "FETCH_POSTS_BY_SEARCH";
+export const CREATE_POST = "CREATE_POST";
+export const FETCH_POST_BY_ID = "FETCH_POST_BY_ID";
+export const SAVE_CURRENT_POST = "SAVE_CURRENT_POST";
+export const UPDATE_POST = "UPDATE_POST";
+export const DELETE_POST = "DELETE_POST";
+
+export const START_LOADING = "START_LOADING";
+export const STOP_LOADING = "STOP_LOADING";
+
+export const AUTH_GOOGLE_SIGNUP = "AUTH_GOOGLE_SIGNUP";
+export const AUTH_GOOGLE_SIGNIN = "AUTH_GOOGLE_SIGNIN";
+export const AUTH_GOOGLE_SIGNOUT = "AUTH_GOOGLE_SIGNOUT";
+
+export const AUTH_SIGNUP = "AUTN_SIGNUP";
+export const AUTH_SIGNIN = "AUTN_SIGNIN";
+export const AUTH_SIGNOUT = "AUTH_SIGNOUT";
+
+export const CLIENT_ID =
+  "457551835700-l4n9n84761r64b7281990t04gqjj5hk9.apps.googleusercontent.com";
