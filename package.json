@@ -13,6 +13,9 @@
     "@emotion/styled": "^11.9.3",
     "axios": "^0.27.2",
     "gapi-script": "^1.2.0",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.8.5",
+    "@mui/styles": "^5.8.4",
     "google-auth-library": "^8.0.3",
     "jwt-decode": "^3.1.2",
     "moment": "^2.29.3",
@@ -29,11 +32,11 @@
   },
   "scripts": {
     "dev": "react-scripts start",
-    "start": "serve -s build",
+    "start": "serve -sf build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build --legacy-peer-deps"
+    "heroku-postbuild": "npm run build -f"
   },
   "eslintConfig": {
     "extends": [
