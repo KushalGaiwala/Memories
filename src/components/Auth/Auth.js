@@ -142,36 +142,7 @@ const Auth = () => {
           >
             {isSignup ? "Sign Up" : "Sign In"}
           </ButtomSubmitStyled>
-          {/* <GoogleLogin
-            clientId="457551835700-l4n9n84761r64b7281990t04gqjj5hk9.apps.googleusercontent.com"
-            render={(renderProps) => (
-              <ButtonGoogleStyled
-                color="primary"
-                fullWidth
-                onClick={renderProps.onClick}
-                disabled={renderProps.disabled}
-                startIcon={<Icon />}
-                variant="contained"
-              >
-                Google Sign In
-              </ButtonGoogleStyled>
-            )}
-            buttonText="Login"
-            onSuccess={googleSuccess}
-            onFailure={googleFailure}
-            cookiePolicy={"single_host_origin"}
-            isSignedIn={true}
-          /> */}
-          <div id="googleSignInButton">
-            {/* <ButtonGoogleStyled
-              color="primary"
-              fullWidth
-              startIcon={<Icon />}
-              variant="contained"
-            >
-              Google Sign In
-            </ButtonGoogleStyled> */}
-          </div>
+          <div id="googleSignInButton" />
           <Grid container justifyContent="flex-end">
             <Grid item>
               <Button onClick={switchMode}>
