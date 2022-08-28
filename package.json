@@ -32,11 +32,11 @@
   },
   "scripts": {
     "dev": "react-scripts start",
-    "start": "serve -sf build",
+    "start": "serve -s --force build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build -f"
+    "heroku-postbuild": "npm run --force build"
   },
   "eslintConfig": {
     "extends": [
