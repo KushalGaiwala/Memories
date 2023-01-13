@@ -1,4 +1,4 @@
-## Memories - A Social Media Web App
+# Memories - A Social Media Web App
 ---
 - ReactJS, NodeJS, ExpressJS, and MongoDB (MERN Stack) Application after I learned React by making my first small App Adopt-Me.
 - Used Redux for data channeling through whole react app when necessary with the help of constants, reducers, and actions.
